@@ -1,1 +1,0 @@
-function e(e,t){if(!t.motionOn())return()=>{};let n=e.querySelector(`[data-rv-frame]`),r=e.querySelector(`[data-rv-lines]`);return r&&t.fx.lines(r),t.mm.add(`(min-width: 1024px)`,()=>{n&&t.fx.reveal(n)}),()=>{}}export{e as init};

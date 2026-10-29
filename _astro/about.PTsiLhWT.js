@@ -1,1 +1,0 @@
-function e(e,t){if(!t.motionOn())return()=>{};let n=e.querySelector(`[data-ab-phrase]`),r=e.querySelector(`[data-ab-frame]`),i=e.querySelector(`[data-ab-detail]`);return n&&t.fx.lines(n),t.mm.add(`(min-width: 1024px)`,()=>{r&&t.fx.dolly(r),i&&t.fx.drift(i,-6)}),()=>{}}export{e as init};
